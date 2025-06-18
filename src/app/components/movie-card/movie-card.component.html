@@ -1,0 +1,7 @@
+@if(movies){
+    <div class="movie-card">
+        <img [src]=" tmdbconfig.ImagePath + movies.poster_path" alt="movie-img" >
+        <h4 class="title">{{movies.original_title}}</h4>
+        
+    </div>
+}
